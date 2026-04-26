@@ -1,0 +1,12 @@
+Where is the code?
+- proj2.s     is the source
+- proj2.o     is the output after compiling proj2.s
+- proj2.exe   is the executable after using the GNU linker
+
+What commands do I use to run the code?
+- To compile: as proj2.s -o proj2.o 
+- To link:    ld proj2.o -o proj2.exe
+- To run:     ./proj2.exe
+
+Troubleshooting:
+- If the code isn't compiling, try deleting proj2.exe and proj2.o, then starting over.
